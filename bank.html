@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Банк "Миловых"</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .header {
+      font-size: 2em;
+      margin-top: 20px;
+    }
+
+    .bank-logo {
+      width: 80%;
+      margin: 20px auto;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .button {
+      background-color: #2E0854;
+      color: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      margin: 10px;
+      width: 45%;
+      text-align: center;
+      font-size: 1.2em;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #4B0082;
+    }
+
+    .button img {
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    .footer {
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .footer img {
+      width: 50px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">Банк "Миловых"</div>
+
+  <img class="bank-logo" src="bank_logo.png" alt="Логотип банка">
+
+  <div class="buttons">
+    <div class="button">
+      <img src="balance.png" alt="Баланс" width="24"> Баланс 💰
+    </div>
+    <div class="button">
+      <img src="exchange.png" alt="Курс" width="24"> Курс 📈
+    </div>
+    <div class="button">
+      <img src="transactions.png" alt="Транзакции" width="24"> Транзакции 💸
+    </div>
+    <div class="button">
+      <img src="shop.png" alt="Магазин" width="24"> Магазин 🛍
+    </div>
+    <div class="button">
+      <img src="events.png" alt="События" width="24"> События 🎁
+    </div>
+    <div class="button">
+      <img src="tasks.png" alt="Задания" width="24"> Задания 📝
+    </div>
+    <div class="button">
+      <img src="fines.png" alt="Штрафы" width="24"> Штрафы ⛔
+    </div>
+  </div>
+
+  <div class="footer">
+    <img src="home.png" alt="Главная">
+    <img src="party.png" alt="Праздник">
+    <img src="settings.png" alt="Настройки">
+  </div>
+
+</body>
+</html>
